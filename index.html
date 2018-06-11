@@ -41,6 +41,17 @@
 
       <link rel="stylesheet" href="styles/main.css">
       <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,900" rel="stylesheet">
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120664378-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120664378-1');
+</script>
+
   </head>
   <body>
   <div class="se-pre-con"></div>
@@ -738,7 +749,7 @@ Then I started looking at their competitions to check out what is working for th
                     <div class="info-title"><p>Technologies I <br/>Have Mastered</p></div>
                     <div class="info-list"><ul><li>Adobe Create Suite</li><li>ReactJS</li><li>NodeJS</li><li>HTML/CSS/JS</li></ul></div>
                 </div>
-                <p>You can ask me specific questions about my skills or 
+                <p>You can ask me specific questions about my skills or
 my work using the chatbot.<a class="open-chatbot-link" style="color: #358efc;text-decoration: none;"> Go ahead and say HI!</a></p>
             </div>
                 </div>
@@ -789,22 +800,10 @@ var parallaxInstance = new Parallax(scene, {
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-XXXXX-X', 'auto');
+      ga('create', 'UA-120664378-1', 'auto');
       ga('send', 'pageview');
     </script>
-    <script>
-$('iframe').each(function(){
-    function injectCSS(){
-        $iframe.contents().find('head').append(
-            $('<link/>', { rel: 'stylesheet', href: 'app/styles/chatbot.css', type: 'text/css' })
-        );
-    }
 
-    var $iframe = $(this);
-    $iframe.on('load', injectCSS);
-    injectCSS();
-});
-    </script>
     <!-- Built with love using Web Starter Kit -->
   </body>
 </html>
