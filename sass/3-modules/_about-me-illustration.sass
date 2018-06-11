@@ -1,0 +1,64 @@
++keyframes (shape-change1)
+  0%
+    transform: translateY(0px)
+
+  25%
+    transform: translateY(5px)
+
+  50%
+    transform: translateY(8px)
+
+  75%
+    transform: translateY(5px)
+
+  100%
+    transform: translateY(0px)
+  
++keyframes (shape-change2)
+  0% 
+    transform: scale(1,1) translateY(0)
+  50%
+    transform: scale(1,1.5) translateY(-21px)
+  100%
+    transform: scale(1,1) translateY(0)
+    
++keyframes (shape-change3)
+  0%
+    transform: scale(1,1) translateY(0)
+  50%
+    transform: scale(1,0.5) translateY(21px)
+
+  100%
+    transform: scale(1,1) translateY(0)
+    
+
++keyframes (shape-change4)
+  0%
+    transform: translateY(0)
+  50%
+    transform: translateY(15px)
+  100%
+    transform: translateY(0px)
+
+#shape1
+  animation-name: shape-change1
+  animation-duration: 4s
+  animation-iteration-count: infinite
+
+#shape2
+  animation-name: shape-change2
+  animation-duration: 4s
+  animation-iteration-count: infinite
+  transform-origin: center
+
+#shape3
+  animation-name: shape-change3
+  animation-duration: 10s
+  animation-iteration-count: infinite
+  transform-origin: center
+
+#shape4
+  animation-name: shape-change4
+  animation-duration: 4s
+  animation-iteration-count: infinite
+  transform-origin: center

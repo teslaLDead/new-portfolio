@@ -1,0 +1,28 @@
+
+/* TEAM */
+
+                            
+Developer & Designer: Paritosh Kumar.
+
+                            
+Site: kumarparitosh20 [at] gmail.com
+
+                            
+Twitter: @KumarParitosh20
+
+                            
+Location: Delhi, India
+
+/* SITE */
+
+
+Last update: 2018/06/01
+
+
+Standards: HTML5, CSS3, SASS, JS
+
+
+Components: jQuery, Bourbon/Neat Sass, Jquery-mousewheel-plugin
+
+
+Software: Photoshop, Illustrator, PyCharm

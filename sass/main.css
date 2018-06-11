@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif; }
+
+body {
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100vw; }
+
+button {
+  background: #358efc;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  font-weight: 500;
+  font-size: 1.2em;
+  cursor: pointer; }
+
+ul {
+  list-style-type: none; }
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 2; }
+  header::after {
+    clear: both;
+    content: "";
+    display: block; }
+  header .brand-logo {
+    width: calc(8.3333333333% - 21.6666666667px);
+    float: left;
+    margin-left: 20px; }
+  header .header-menu {
+    width: calc(8.3333333333% - 21.6666666667px);
+    float: left;
+    margin-left: 20px;
+    left: calc(83.3333333333% - 36.6666666667px + 20px);
+    position: relative; }
+
+#logo {
+  height: 50px;
+  width: 50px; }
+
+#hamburger {
+  height: 50px;
+  width: 50px;
+  float: right; }
+
+.body {
+  height: 100vh;
+  width: 100vw; }
+  .body .page-name {
+    position: fixed;
+    bottom: 0;
+    left: -20px;
+    z-index: -1; }
+  .body .page-title {
+    font-size: 25vh;
+    position: relative;
+    top: 6vh;
+    font-weight: 900;
+    color: #f0f0f0;
+    text-transform: lowercase;
+    letter-spacing: 20px; }
+  .body .app-nav {
+    position: fixed;
+    right: 0;
+    padding: 30vh 0; }
+    .body .app-nav ul {
+      position: relative;
+      height: 40vh;
+      display: grid; }
+      .body .app-nav ul li {
+        display: grid-element;
+        margin-right: 20px; }
+        .body .app-nav ul li svg {
+          position: relative;
+          top: 50%; }
+    .body .app-nav li:nth-child(1) {
+      margin-top: 0px; }
+
+.body-content {
+  position: absolute;
+  height: 100%;
+  width: 100%; }
+
+.page {
+  height: 100vh; }
+  .page::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .page div:nth-child(1) {
+    width: calc(50% - 30px);
+    float: left;
+    margin-left: 20px; }
+  .page div:nth-child(2) {
+    width: calc(50% - 30px);
+    float: left;
+    margin-left: 20px; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,92 @@
+#chatbot
+  position: fixed
+  bottom: 20px
+  right: 20px
+  z-index: 10
+
+#chatbot-frame
+  transition: all 0.5s ease
+  border: 1px solid #e8e7e780
+
+
+.disabled-chat
+  opacity: 0
+  width: 0px
+  height: 0px
+  border-radius: 300px
+
+.active-chat
+  opacity: 1
+  width: 300px
+  height: 450px
+  border-radius: 0
+
+#chatbot-icon
+
+  border-radius: 50px
+  position: absolute
+  cursor: pointer
+  z-index: 20
+  transition: all 0.5s ease
+  box-shadow: 5px 5px 9px -1px rgba(0, 0, 0, 0.28)
+  transform: translate(-1px,-5px)
+  span
+    svg
+      transition: all 0.5s ease
+      transform-origin: center
+      position: fixed
+      path:nth-child(2)
+        transition: all 0.3s ease
+
+
+
+#chatbot-icon:hover
+  transform: translate(0px,0px)
+  box-shadow: 5px 5px 9px -1px #fff0
+
+.show-cross
+  +size(30px)
+  top: -10px
+  right: -5px
+  background: $red
+  span
+    svg
+      +size(30px)
+      path:nth-child(1)
+        opacity: 0
+      path:nth-child(3)
+        opacity: 0
+      path:nth-child(2)
+        transform: rotateZ(45deg)
+        transform-origin: 30% 50%
+      path:nth-child(4)
+        transform: rotateZ(-45deg)
+        transform-origin: 40% 55%
+
+
+
+.show-button
+  +size(65px)
+  right: 0
+  top: -42px
+  background: $dark-shade
+  span
+    position: absolute
+    left: 32.5px
+    margin-left: -20px
+    top: 32.5px
+    margin-top: -20px
+    svg
+      +size(40px)
+      path:nth-child(1)
+        opacity: 1
+      path:nth-child(3)
+        opacity: 1
+      path:nth-child(2)
+        transform: rotateZ(0deg)
+        transform-origin: 30% 50%
+      path:nth-child(4)
+        transform: rotateZ(0deg)
+        transform-origin: 40% 55%
+
+
